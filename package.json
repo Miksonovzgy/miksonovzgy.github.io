@@ -1,5 +1,8 @@
 {
+  "homepage":"https://miksonovzgy.github.io/react-gh-pages",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "parcel serve ./src/index.html",
     "build": "parcel ./src/index.html",
     "start": "parcel src/index.html -p 8080 --open"
@@ -7,6 +10,7 @@
   "devDependencies": {
     "@parcel/transformer-typescript-tsc": "^2.0.0-rc.0",
     "autoprefixer": "^10.3.1",
+    "gh-pages": "^6.0.0",
     "parcel": "^2.0.0-rc.0",
     "postcss": "^8.0.0",
     "postcss-import": "^14.0.2",
