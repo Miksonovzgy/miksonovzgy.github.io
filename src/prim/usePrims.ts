@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import { colorTheme } from "../config";
 import { ComponentData, Link, LinkState, Node, NodeState } from "../models";
 import {
-  DEFAULT_NODES,
+ // DEFAULT_NODES,
   getDefaultLinks,
   getRandomGraph,
 } from "./default.config";
