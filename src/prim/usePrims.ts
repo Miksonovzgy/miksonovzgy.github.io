@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useState } from "react";
 import { colorTheme } from "../config";
-import { ComponentData, Link, LinkState, Node, NodeState } from "../models";
+import { ComponentData, Link, LinkState, Node, NodeState } from "../models.ts";
 import {
- // DEFAULT_NODES,
+  //DEFAULT_NODES,
   getDefaultLinks,
   getRandomGraph,
 } from "./default.config";

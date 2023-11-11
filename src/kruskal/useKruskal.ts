@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
-import { colorTheme } from "../config";
-import { ComponentData, Link, LinkState, Node, NodeState } from "../models";
-import { getRandomGraph } from "../prim/default.config";
+import { colorTheme } from "../config.ts";
+import { ComponentData, Link, LinkState, Node, NodeState } from "../models.ts";
+import { getRandomGraph } from "../prim/default.config.ts";
 
 let treeCounter = 0;
 

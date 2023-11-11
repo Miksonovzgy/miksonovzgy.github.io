@@ -1,8 +1,8 @@
 import * as React from "react";
 // @ts-ignore
 import { Graph } from "react-d3-graph";
-import { usePrim } from "./usePrims";
-import { colorTheme } from "../config";
+import { usePrim } from "./usePrims.ts";
+import { colorTheme } from "../config.ts";
 
 const graphConfig = {
   linkHighlightBehavior: true,
