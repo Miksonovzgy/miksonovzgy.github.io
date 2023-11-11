@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "es6",
     "lib": ["dom", "es2015.promise", "es5","ESNext"],
-    "target": "ES5",
+    "target": "es6",
     "strict": true,
     "jsx": "react"
   }
