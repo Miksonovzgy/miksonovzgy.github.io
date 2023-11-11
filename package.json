@@ -1,5 +1,5 @@
 {
-  "homepage":"https://miksonovzgy.github.io/react-gh-pages",
+  "homepage":"http://miksonovzgy.github.io/miksonovzgy.github.io",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
