@@ -1,7 +1,7 @@
 import * as React from "react";
 import * as ReactDom from "react-dom";
-import KruskalComponent from "./kruskal/KruskalComponent";
-import PrimComponent from "./prim/PrimComponent";
+import KruskalComponent from "./kruskal/KruskalComponent.tsx";
+import PrimComponent from "./prim/PrimComponent.tsx";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 ReactDom.render(<App />, document.getElementById("app"));

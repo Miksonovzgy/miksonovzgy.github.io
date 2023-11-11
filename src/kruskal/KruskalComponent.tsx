@@ -1,8 +1,8 @@
 import * as React from "react";
 // @ts-ignore
 import { Graph } from "react-d3-graph";
-import { useKruskal } from "./useKruskal";
-import { colorTheme } from "../config";
+import { useKruskal } from "./useKruskal.ts";
+import { colorTheme } from "../config.ts";
 
 const graphConfig = {
   linkHighlightBehavior: true,
