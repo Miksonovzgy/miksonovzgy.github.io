@@ -5,7 +5,7 @@
     "target": "es6",
     "strict": true,
     "jsx": "react",
-    "moduleResolution": "node" 
-
+    "noEmit": true,
+    "allowImportingTsExtensions": true
   }
 }
