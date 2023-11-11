@@ -4,6 +4,8 @@
     "lib": ["dom", "es2015.promise", "es5","ESNext"],
     "target": "es6",
     "strict": true,
-    "jsx": "react"
+    "jsx": "react",
+    "moduleResolution": "node" 
+
   }
 }
